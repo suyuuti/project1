@@ -5,24 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pebris Intl Sch</title>
-    <style>
-      h3,
-      h1 {
-        text-transform: uppercase;
-      }
-      a {
-          text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
-  <body style="text-align: center">
-    <nav
-      style="
-        text-align: center;
-        background-color: rgb(134, 134, 238);
-        height: 20px;
-      "
-    >
+  <body>
+    <nav>
       <a href="./index.html">Home</a>
       <a href="./AboutUs.html">About Us</a>
       <a href="./Gallery.html">Gallery</a>
@@ -30,12 +18,12 @@
       <a href="./Contact Us.html">Contact Us</a>
       <a href="./entrance_exam.html">Entrance Exam</a>
     </nav>
-    <header style="background-color: rgb(107, 107, 211)">
-      <h5>Welcome to</h5>
+    <header>
+      <h5 class="welcome">Welcome to</h5>
       <h1>Pebris International School</h1>
     </header>
     <main>
-      <section style="background-color: rgb(227, 168, 230)">
+      <section class="section1">
         <section>
           <h3>ACADEMIC ACTIVITIES</h3>
           <p>
@@ -59,23 +47,23 @@
           </p>
         </section>
       </section>
-      <section style="background-color: rgb(230, 230, 168)">
-        <h4>Study at Pebris</h4>
-        <ul style="list-style: none">
-          <li><a href="#">Junior Secondary School</a></li>
-          <li><a href="#">Senior Secondary School</a></li>
-          <li><a href="#">Scholarship</a></li>
-          <li><a href="#">Excursions</a></li>
-          <li><a href="#">Medical Facilities</a></li>
-          <li><a href="#">Religious activities</a></li>
-          <li><a href="#">Extracurricular activities</a></li>
-          <li><a href="#">Leadership programmes</a></li>
+      <section class="section2">
+        <h4 class="study">Study at Pebris</h4>
+        <ul class="list1">
+          <li>-<a href="#">Junior Secondary School</a></li>
+          <li>-<a href="#">Senior Secondary School</a></li>
+          <li>-<a href="#">Scholarship</a></li>
+          <li>-<a href="#">Excursions</a></li>
+          <li>-<a href="#">Medical Facilities</a></li>
+          <li>-<a href="#">Religious activities</a></li>
+          <li>-<a href="#">Extracurricular activities</a></li>
+          <li>-<a href="#">Leadership programmes</a></li>
         </ul>
       </section>
-      <section style="background-color: rgb(232, 186, 183)">
-        <img src="./image/sch4.jpg" alt="" height="200px">
-        <img src="./image/sch3.jpg" alt="" height="200px">
-        <img src="./image/sch2.jpg" alt="" height="200px">
+      <section class="section3">
+        <img src="./image/sch4.jpg" alt="" height="200px" />
+        <img src="./image/sch3.jpg" alt="" height="200px" />
+        <img src="./image/sch2.jpg" alt="" height="200px" />
         <h3>About PEBRIS INTERNATIONAL SCHOOL</h3>
 
         <p>
@@ -95,30 +83,39 @@
         </p>
       </section>
     </main>
-    <footer style="background-color: rgb(62, 105, 246)">
-      <section>
-        <h3>Quick Links</h3>
-        <ul style="list-style: none">
-          <li><a href="">Admission </a></li>
-          <li><a href="">Application Form </a></li>
-          <li><a href=""> Curriculum </a></li>
-          <li><a href=""> Tuition and Payment </a></li>
-          <li><a href="">Blog</a></li>
-        </ul>
-      </section>
-      <section>
-        <h3>Contact Info</h3>
-        <p>
-          Anthony Campus: 32, Olatunde Ayoola Avenue, Anthony, Lagos Lekki
-          Campus: KM 40, Lekki-Epe Expressway, Awoyaya, Ibeju Lekki, Lagos Ikoyi
-          Campus: 12a Reeve Road, Ikoyi, Lagos Phone Numbers: +234 704 550 2424,
-          +234 704 550 2444, +234 806 407 4503, +234 908 717 1700 Email
-          Addresses: info.anthony@greenspringsschool.com,
-          info.ikoyi@greenspringsschool.com, info.lekki@greenspringsschool.com
-        </p>
-      </section>
-      <section>
-        <h3>Follow Us on Social Media</h3>
+    <footer class="footer">
+      <section class="foot">
+        <section>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="">Admission </a></li>
+            <li><a href="">Application Form </a></li>
+            <li><a href=""> Curriculum </a></li>
+            <li><a href=""> Tuition and Payment </a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </section>
+        <section>
+          <h3>Contact Info</h3>
+          <p>
+            Anthony Campus: 32, Olatunde Ayoola Avenue, Anthony, Lagos <br />
+            Lekki Campus: KM 40, Lekki-Epe Expressway, Awoyaya, Ibeju Lekki,
+            Lagos <br />
+            Ikoyi Campus: 12a Reeve Road, Ikoyi, Lagos Phone Numbers: +234 704
+            550 2424, <br />
+            +234 704 550 2444, +234 806 407 4503, +234 908 717 1700 <br />
+            Email Addresses: info.anthony@greenspringsschool.com,
+            info.ikoyi@greenspringsschool.com, <br />
+            info.lekki@greenspringsschool.com
+          </p>
+        </section>
+        <section>
+          <h3>Follow Us on Social Media..</h3>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-yahoo"></a>
+        </section>
       </section>
       <p>Copyright &copy 2022</p>
     </footer>
